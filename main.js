@@ -9,7 +9,7 @@ const or_list = {
   armor:
     '-crystocrene -dreambane -is:classitem -is:exotic is:legendary power:<=powerfulcap basestat:total:<60 basestat:custom:<40',
   class_items:
-    'is:classitem is:dupelower (sunsetsin:<=next or power:<powerfulcap)'
+    'is:classitem (sunsetsin:<=next or (is:dupelower power:<powerfulcap))'
 }
 
 var search_string = exclude + ' ('
